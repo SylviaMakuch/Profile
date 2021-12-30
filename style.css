@@ -1,0 +1,114 @@
+@import url("https://use.typekit.net/jmk3xov.css");
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+:root {
+  --dark-bg: rgba(15, 15, 15, 0.742);
+  --spacing: 350px;
+
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: x-large;
+}
+
+main {
+  width: 100vw;
+  color: white;
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  margin: 0px auto;
+  padding: 120px 0px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+h1,
+h2,
+h3,
+blockquote {
+  font-family: elevon, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(235, 162, 215);
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+header {
+  background: var(--dark-bg);
+  grid-column: 2 / span 5;
+  grid-row: 0 / span 5;
+  font-size: 2.5rem;
+  padding: 2rem;
+  margin-bottom: var(--spacing);
+}
+
+section {
+  grid-column: 2 / 8;
+  padding: 1rem;
+  background: var(--dark-bg);
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: var(--spacing);
+}
+
+blockquote {
+  margin: 0;
+  padding: 0;
+  grid-column: 4 / span 9;
+  margin-bottom: var(--spacing);
+}
+
+blockquote p {
+  color: black;
+  background-color: white;
+  font-size: 3rem;
+  display: inline;
+  line-height: 1;
+}
+
+.socials {
+  grid-column: 6 / 12;
+  font-size: -webkit-xxx-large;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.social {
+  height: 150px;
+  z-index: 3;
+  padding: 30px;
+}
+
+.social:hover {
+  transform: rotateY(360deg);
+  transition: 0.5s;
+}
+
+.projects{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projectsection{
+  max-width: 955px;
+}
+
+.card{
+margin: 10px;
+}
+
+.card-img-top{
+  height: 250px;
+}
