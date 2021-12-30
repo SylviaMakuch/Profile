@@ -99,6 +99,7 @@ blockquote p {
 .projects{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .projectsection{
